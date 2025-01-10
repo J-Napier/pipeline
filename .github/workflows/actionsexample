@@ -1,0 +1,10 @@
+name: Github actions example
+on: [pull, workflow_dispatch]
+jobs:
+  Example-Actions-Job:
+    name: Exploring github actions
+    runs-on: ubuntu-latest
+    steps:
+      #display event that triggered this
+      - run: echo "the job that triggered this ${{ github.event_name }} event."
+
