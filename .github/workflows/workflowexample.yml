@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #display event that triggered this
-      - run: echo "the job that triggered this ${{ github.event_name }} event."
+      - run: echo "the job that triggered this --> ${{ github.event_name }} event."
