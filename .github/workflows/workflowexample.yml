@@ -1,5 +1,5 @@
 name: Github actions example
-on: [pull, workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   Example-Actions-Job:
     name: Exploring github actions
